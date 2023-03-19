@@ -1,0 +1,123 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		}
+		,
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "咨训"
+			}
+		},
+		{
+            "path" : "pages/my/my",
+            "style": {
+            	"navigationBarTitleText": "uni-app",
+            	"navigationStyle": "custom"
+            }
+            
+        },{
+            "path" : "pages/my/add-person",
+            "style": {
+            	"navigationBarBackgroundColor": "#fff",
+            	"navigationBarTitleText": "添加成员"
+            }
+            
+        },{
+            "path" : "pages/my/subscribe",
+            "style": {
+            	"navigationBarBackgroundColor": "#fff",
+            	"navigationBarTitleText": "我的预约"
+            }
+            
+        } ,{
+            "path" : "pages/my/userInfo",
+            "style" :                                                                                    
+            {
+               "navigationBarBackgroundColor": "#fff",
+               "navigationBarTitleText": "我的信息"
+            }
+            
+        },{
+            "path" : "pages/notice/notice",
+            "style": {
+            	"navigationBarTitleText": "uni-app",
+            	"navigationStyle": "custom"
+            }
+            
+        },{
+            "path" : "pages/subscribe/subscribe",
+            "style": {
+            	"navigationBarTitleText": "uni-app",
+            	"navigationStyle": "custom"
+            }
+            
+        },{
+            "path" : "pages/subscribe/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTitleText": "医院详情"
+			}
+        }
+        ,{
+            "path" : "pages/subscribe/order",
+            "style" :                                                                                    
+            {
+              "navigationBarBackgroundColor": "#fff",
+              "navigationBarTitleText": "订单确认"
+            }
+            
+        }
+       
+       
+        ,{
+            "path" : "pages/my/messageBoard",
+            "style" :                                                                                    
+            {
+                "navigationBarBackgroundColor": "#fff",
+                "navigationBarTitleText": "留言箱"
+            }
+            
+        },
+		{
+		    "path" : "pages/subscribe/list",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的预约",
+		        "navigationBarBackgroundColor": "#fff"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/subscribe/oederDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约详情",
+                 "navigationBarBackgroundColor": "#fff"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

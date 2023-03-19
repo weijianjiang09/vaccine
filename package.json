@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "uview-ui": "^2.0.14"
+  },
+  "name": "va",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
